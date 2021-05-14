@@ -1,0 +1,471 @@
+
+.container{
+	margin: 40px 0px;
+	padding:0;
+}
+.blog-container{
+text-align: center;
+}
+.row{
+	margin:0 !important ;
+	padding:0 !important;
+	
+}
+.heading{
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+    text-transform: initial;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.blog-container h2{
+    text-align: center;
+    }
+
+h5 {
+    font-size: 14px;
+	 color: white;
+	font-weight:900 !important;
+}	
+.blog-container p{
+        text-align: center;
+       
+    }
+    .blog-container .row{
+        text-align: center;
+        
+    }
+
+.blog-col1{
+	 padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+}
+
+
+
+.blog-col2{
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+
+}
+.blog-col3{
+    padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+}
+.blog-col4{
+    padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+}
+.blog-col5{
+    padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+}
+.blog-col6{
+    padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: white;
+}
+.blog-col-bg1{
+    background-image:url(https://www.wildermanfund.org/hubfs/Assets%202018/depression.jpg);
+    background-size:cover;
+    background-position:center center;
+    border-radius:4px;
+    opacity: 0.9;
+   position:relative;
+    cursor: pointer;
+    color: white;
+	height:250px;
+	padding:50px;
+}
+.blog-col-bg1::after{
+    content: "";
+   background-color: #3a9e47;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.blog-col-bg2{
+    background-image:url(https://www.wildermanfund.org/hubfs/175545935.jpg);
+    background-size:cover;
+    background-position:center center;
+    border-radius:4px;
+    opacity: 0.9;
+   position:relative;
+    cursor: pointer;
+    color: white;
+	height:250px;
+	padding:50px;
+}
+.blog-col-bg2::after{
+    content: "";
+   background-color: #339740;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.blog-col-bg3{
+    background-image:url(https://www.wildermanfund.org/hubfs/Assets%202018/shutterstock_169647155.jpg);
+   background-size:cover;
+    background-position:center center;
+    border-radius:4px;
+    opacity: 0.9;
+   position:relative;
+    cursor: pointer;
+    color: white;
+	height:250px;
+	padding:50px;
+}
+.blog-col-bg3::after{
+    content: "";
+   background-color: #3a9e47;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.blog-col-bg4{
+    background-image:url(https://www.wildermanfund.org/hubfs/Assets%202018/shutterstock_83231545.jpg);
+    background-size:cover;
+    background-position:center center;
+    border-radius:4px;
+    opacity: 0.9;
+   position:relative;
+    cursor: pointer;
+    color: white;
+	height:250px;
+	padding:50px;
+}
+.blog-col-bg4::after{
+    content: "";
+   background-color: #3a9e47;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.blog-col-bg5{
+    background-image:url(https://www.wildermanfund.org/hubfs/Assets%202018/176157090.jpg);
+    background-size:cover;
+    background-position:center center;
+    border-radius:4px;
+    opacity: 0.9;
+   position:relative;
+    cursor: pointer;
+    color: white;
+	height:250px;
+	padding:50px;
+}
+.blog-col-bg5::after{
+    content: "";
+   background-color: #3a9e47;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.blog-col-bg6{
+    background-image:url(https://www.wildermanfund.org/hubfs/Assets%202018/depression.jpg);
+    background-size:cover;
+    background-position:center center;
+    border-radius:4px;
+    opacity: 0.9;
+   position:relative;
+    cursor: pointer;
+    color: white;
+	height:250px;
+	padding:50px;
+}
+.blog-col-bg6::after{
+    content: "";
+   background-color: #3a9e47;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.blog-col-bg1:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+.blog-col-bg2:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+.blog-col-bg3:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+.blog-col-bg4:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+.blog-col-bg5:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+.blog-col-bg6:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+}
+
+
+.blog-col1:hover {
+    
+    color: white;
+    
+}
+.blog-col2:hover {
+ 
+    color: white;
+    
+}
+.blog-col3:hover {
+  
+    color: white;
+    
+}
+.blog-col4:hover {
+  
+    color: white;
+    
+}
+.blog-col5:hover {
+   
+    color: white;
+    
+}
+.blog-col6:hover {
+
+    color: white;
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+ 
+ .blog-container .row{
+        text-align: center;
+		
+   
+    }
+  }
+@media only screen and (max-width: 600px) {
+  .blog-container .row{
+        text-align: center;
+   
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  /*slider start*/
+  /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;
+    
+	 
+  }
+  q:before {
+  content: open-quote;
+  font-size:80px;
+  float:left;
+  margin-top: -25px;
+    margin-right: 12px;
+}
+ 
+q:after {
+  content: close-quote;
+}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  /*slider end*/
+
+
+
+
+
+
+
+.carousel-inner {
+      position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  .carousel-item {
+    width: 33.33% !important;
+    height: 300px;
+    padding: 40px 40px;
+    font-size: 20px;
+    margin-right: 0% !important;
+    position: relative;
+    display: block !important;
+    float: left;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+  
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+  .blog-container h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.heading {
+  font-size: 25px;
+}
+  .carousel-inner {
+    position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+   .carousel-item {
+    width: 100% !important;
+    height: 300px;
+    padding: 30px 10px;
+    font-size: 20px;
+    margin-right: 0% !important;
+    position: relative;
+    display: block !important;
+    float: left;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+  }
+
+
+
+
+
+
+
+
+
+
